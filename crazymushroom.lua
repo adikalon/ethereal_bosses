@@ -48,7 +48,7 @@ mobs:register_mob("ethereal_bosses:crazymushroom", {
 	},
 })
 
-mobs:register_egg("ethereal_bosses:crazymushroom", ethereal_bosses.S("Crazy Mushroom"), "ethereal_bosses_inv_glove_glove.png", 0)
+mobs:register_egg("ethereal_bosses:crazymushroom", ethereal_bosses.S("Crazy Mushroom"), "ethereal_bosses_inv_glove_glove.png", 1)
 
 if not ethereal_bosses.custom_spawn and ethereal_bosses.spawns.crazymushroom then
 	mobs:spawn(ethereal_bosses.spawns.crazymushroom)

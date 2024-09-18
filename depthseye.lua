@@ -3,6 +3,7 @@ mobs:register_mob("ethereal_bosses:depthseye", {
 	type = "monster",
 	passive = false,
 	attack_animals = false,
+	attack_npcs = true,
 	attack_type = "dogfight",
 	pathfinding = true,
 	reach = 2,
@@ -47,7 +48,7 @@ mobs:register_mob("ethereal_bosses:depthseye", {
 	},
 })
 
-mobs:register_egg("ethereal_bosses:depthseye", ethereal_bosses.S("Depths Eye"), "zoi_de_lula_egg.png", 0)
+mobs:register_egg("ethereal_bosses:depthseye", ethereal_bosses.S("Depths Eye"), "zoi_de_lula_egg.png", 1)
 
 if not ethereal_bosses.custom_spawn and ethereal_bosses.spawns.depthseye then
 	mobs:spawn(ethereal_bosses.spawns.depthseye)

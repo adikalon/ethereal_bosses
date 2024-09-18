@@ -46,4 +46,15 @@ ethereal_bosses.spawns = {
 		min_height = 0,
 		max_height = ethereal_bosses.height.max,
 	},
+	frostyqueen = {
+		name = "ethereal_bosses:frostyqueen",
+		nodes = {"air"},
+		neighbors = {"default:dirt_with_snow", "default:snow", "default:ice", "default:snowblock"},
+		max_light = 7,
+		interval = 60,
+		chance = 20000,
+		active_object_count = 1,
+		min_height = 0,
+		max_height = ethereal_bosses.height.max,
+	},
 }
