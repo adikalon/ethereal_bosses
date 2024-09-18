@@ -1,0 +1,3 @@
+# textdomain: ethereal_bosses
+
+Crazy Mushroom=
