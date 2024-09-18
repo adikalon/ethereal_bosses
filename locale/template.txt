@@ -5,3 +5,4 @@ Depths Eye=
 Frosty Queen=
 Heated=
 Ice Monster=
+Nature Guardian=

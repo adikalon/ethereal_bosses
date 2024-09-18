@@ -77,4 +77,15 @@ ethereal_bosses.spawns = {
 		min_height = 0,
 		max_height = ethereal_bosses.height.max,
 	},
+	nature_guardian = {
+		name = "ethereal_bosses:nature_guardian",
+		nodes = {"air"},
+		neighbors = {"ebiomes:dirt_with_grass_swamp", "ebiomes:peat_with_swamp_moss_yellow", "naturalbiomes:alderswamp_dirt", "naturalbiomes:alderswamp_litter", "swamp:dirt_with_swamp_grass", "swamp:mud", "swamp:muddy_mud", "swamp:root_with_mud"},
+		max_light = 7,
+		interval = 60,
+		chance = 20000,
+		active_object_count = 1,
+		min_height = 0,
+		max_height = ethereal_bosses.height.max,
+	},
 }

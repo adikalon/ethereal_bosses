@@ -22,6 +22,7 @@ dofile(path .. "/depthseye.lua")
 dofile(path .. "/frostyqueen.lua")
 dofile(path .. "/heated.lua")
 dofile(path .. "/icemonster.lua")
+dofile(path .. "/nature_guardian.lua")
 
 if ethereal_bosses.custom_spawn then
 	dofile(path .. "/spawn.lua")
