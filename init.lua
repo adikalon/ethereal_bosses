@@ -18,6 +18,7 @@ dofile(path .. "/0_config.lua")
 
 -- MONSTERS
 dofile(path .. "/crazymushroom.lua")
+dofile(path .. "/depthseye.lua")
 
 if ethereal_bosses.custom_spawn then
 	dofile(path .. "/spawn.lua")
