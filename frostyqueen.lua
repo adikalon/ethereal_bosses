@@ -46,6 +46,7 @@ mobs:register_mob("ethereal_bosses:frostyqueen", {
 	lava_damage = 4,
 	light_damage = 10,
 	water_damage = 2,
+	fall_damage = false,
 	animation = {
 		speed_run = 15,
 		stand_start = 1,
