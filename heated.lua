@@ -37,7 +37,7 @@ mobs:register_mob("ethereal_bosses:heated", {
 	floats = 0,
 	view_range = 35,
 	drops = {
-		{name = "default:lava_source", chance = 1, min = 5, max = 15},
+		{name = "default:lava_source", chance = 1, min = 0, max = 2},
 	},
 	lava_damage = 0,
 	light_damage = 20,
